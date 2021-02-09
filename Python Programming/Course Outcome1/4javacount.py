@@ -1,6 +1,6 @@
 res=[]
 lineoftext=input("Enter The Line Of Text")
-list=lineoftext.split(" " or "," or ".")
+list=lineoftext.split(" ")
 for i in range(len(list)):
     list.count(list[i])
 print(list.count(list[i]))
