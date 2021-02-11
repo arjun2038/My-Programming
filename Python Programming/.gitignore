@@ -1,0 +1,4 @@
+/.idea
+/bin
+/lib/python3.6/site-packages
+pyvenv.cfg 
