@@ -1,4 +1,4 @@
-range1=int(input("Enter the rages\n"))
+range1=int(input("Enter the ranges\n"))
 range2=int(input())
 root1=int(range1**(1/2))
 root2=int(range2**(1/2))

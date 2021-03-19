@@ -1,0 +1,6 @@
+newFile = open("content.txt","a")
+newFile.write("Hey hai.hello .I am typing here")
+newFile.close()
+readFile = open("content.txt","r")
+print(readFile.readlines())
+readFile.close()

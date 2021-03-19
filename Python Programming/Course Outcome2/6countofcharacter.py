@@ -1,11 +1,10 @@
-list=[]
-lenlist=[]
-size=0
-lenlist=[]
-string=input("Enter the string\n")
-for i in range(len(string)):
-    list=string.split()
-for i in range(len(list)):
-    lenlist.append(len(list[i]))
-    size+=lenlist[i]
-print("The number of characters in the above string is "+str(size))
+#Count the number of characters (character frequency) in a string
+word=str(input("Enter the string: "))
+freq={}
+
+for letter in word:
+    if letter in freq:
+        freq[letter]+=1
+    else:
+        freq[letter]=1
+print("The frequency of characters in",word,":",str(freq))

@@ -1,14 +1,9 @@
-a = int(input("Enter three numbers to compare\n"))
-b = int(input())
-c = int(input())
-if a > b:
-    if a > c:
-        print(str(a) + " is the biggest number")
-    elif c>b:
-        print(str(c) + " is the biggest number")
-elif b > c:
-    print(str(b) + " is the biggest number")
-elif(c>b):
-    print(str(c) + " is the biggest number")
+num1= int(input("Enter First Number : "))
+num2= int(input("Enter Second Number : "))
+num3= int(input("Enter Third Number : "))
+array = [num1,num2,num3]
+array.sort(reverse=True)
+print("The biggest number is",array[0])
+
 
 

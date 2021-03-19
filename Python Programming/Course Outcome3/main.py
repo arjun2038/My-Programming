@@ -1,10 +1,10 @@
-import Graphics.rectangle
-from Graphics.circle import *
-from Graphics.Graphics3D import cuboid
-import Graphics.Graphics3D.sphere
+import graphics.rectangle
+from graphics.circle import *
+from graphics.graphics3D import cuboid
+import graphics.graphics3D.sphere
 print("What do you want to find?")
 print(
-    "1.Area of Rectangle\n2.Perimeter of Rectangle\n3.Area and Perimeter of rectangle\n4.Area of Circle\n5.Perimeter of Circle\n6.Area and Perimeter of Circle\n7.Area of Cuboid\n8.Perimeter of Cuboid\n9.Area and Perimeter of Cuboid\n10.Area of Rectangle\n11.Perimeter of Sphere\n12.Area and Perimeter of Sphere")
+    "1.Area of Rectangle\n2.Perimeter of Rectangle\n3.Area and Perimeter of rectangle\n4.Area of Circle\n5.Perimeter of Circle\n6.Area and Perimeter of Circle\n7.Area of Cuboid\n8.Perimeter of Cuboid\n9.Area and Perimeter of Cuboid\n10.Area of Sphere\n11.Perimeter of Sphere\n12.Area and Perimeter of Sphere")
 option = int(input("Enter the Option"))
 if option == 1:
     a = int(input("Enter Length and Width"))
